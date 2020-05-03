@@ -4,10 +4,12 @@ import sqlite3
 import csv
 
 class DataQuery:
-    def __init__(self):
+    def __init__(self, database):
         """
         :object: data collector
         """
+        self.data = sqlite3.connect(database)
+        self.dataCursor = self.data.cursor()
 
     def getData(self, file):
         """
@@ -26,9 +28,6 @@ class DataQuery:
 
     # print(listed_data)
 
-    data = sqlite3.connect('data.db')
-
-    dataCursor = data.cursor()
 
     # Creating the tables and grepping the data
 
@@ -94,7 +93,7 @@ class DataQuery:
             paliersList += [b]
         return paliersList
 
-Obj = DataQuery()
+# Obj = DataQuery()
 
 # createTableConso()
 # insertConso(getData('conso.csv'))
@@ -106,6 +105,3 @@ Obj = DataQuery()
 # Obj.data.commit()
 
 # Obj.dataCursor.close()
-
-
-
