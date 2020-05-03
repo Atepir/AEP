@@ -61,4 +61,4 @@ Pour les spécifications relatives aux données d'entrée, veuillez vous repport
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/1.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/1.0/88x31.png" /></a><br />Cette œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-sa/1.0/">Licence Creative Commons Attribution -  Partage dans les Mêmes Conditions 1.0 Générique</a>.
 
 ## Contacts
-Pour toute question, veuillez nous contactez aux adresses `akibale@gmail.com` et `atepir0@gmail.com`
+Pour toute question, veuillez nous contactez aux adresses `akibale@gmail.com` et `atepir0@gmail.com`.
