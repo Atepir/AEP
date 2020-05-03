@@ -23,7 +23,9 @@ En effet, en mettant en place des bases de données relationnelles, nous assuron
 ## Installation (clonage)
 Pour cloner le répertoire, la commande est un git : 
 
-`git clone https://github.com/atepir/aep`
+```shell script
+git clone https://github.com/atepir/aep
+```
 
 ## Examples d'utilisation (avec les données de test)
 ### 1. En ligne de commande
