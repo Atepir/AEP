@@ -38,7 +38,7 @@ Ensuite, lancer le script <b>\_\_main__.py</b> avec les bons paramètres. Par ex
 ```shell script
 python __main__.py -c "test_inputs/conso.csv" -p "test_inputs/paliers.csv" -d "test_results/test_database.db" -s "test_results/test_output_db.db" -o "test_results/test_output.xls" -i "test_results/output_img.png" -v 50000
 ```
-### 2. Dans un script en temps que module
+### 2. Dans un script en tant que module
 Ceci est l'option idéale pour accéder à toutes les options de manière individuelle. Parfait pour les améliorations du présent module. Pour ce faire, rien de plus simple: après clonage du répertoire, importer aep de la manière habituelle c'est-à-dire :
 ```python
 import aep
